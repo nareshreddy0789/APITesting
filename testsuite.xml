@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <parameter name="url" value="https://bayamprestapp.herokuapp.com" />
+    <test name="Gettest">
+        <classes>
+            <class name="com.bayamp.apitestin.GetTest" />
+            <class name="com.bayamp.apitestin.PostTest"/>
+            <class name="com.bayamp.apitestin.DeleteTest"/>
+        </classes>
+    </test>
+</suite>
